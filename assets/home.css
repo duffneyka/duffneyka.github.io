@@ -1,0 +1,17 @@
+.page-header table {
+  font-family: "Bebas Neue", Helvetica, sans-serif;
+  font-size: 20pt;
+  color: #9facb5;
+  text-decoration: none;
+}
+
+.row {
+  max-width:100%;
+  width:1000px;
+  text-align:left;
+  margin:0 auto;"
+}
+
+.media-body media-heading p {
+  padding-top: 30px;
+}

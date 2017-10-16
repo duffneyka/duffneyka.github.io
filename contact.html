@@ -1,13 +1,60 @@
 <html>
 <head>
 <title>
-I'm Super Awesome
+Contact
 </title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+<link rel="stylesheet" href="/assets/shared.css" />
+<link rel="stylesheet" href="/assets/contact.css" />
 </head>
 <body>
-<p>Hi, I'm Kayla. I make videos</p>
-<p>Go back <a href="/">Home</a></p>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <div style="text-align:center;margin:0 auto;">
+    <img style="max-width:100%; width:600px" src= "/resources/header-image.jpg"/>
+  </div>
+
+  <div class="page-header">
+     <table >
+       <tbody>
+         <tr>
+           <td>
+             <a href="/index.html">HOME</a>
+           </td>
+           <td style="text-align: center">
+             <a href="/work.html">WORK</a>
+           </td>
+           <td style="text-align: center">
+             <a href="/about.html">ABOUT</a>
+           </td>
+           <td style="text-align: center">
+             <a href="/contact.html">CONTACT</a>
+           </td>
+         </tr>
+       </tbody>
+     </table>
+   </div>
+
+   <form>
+     <div class="form-group">
+       <label for="email-address">Email address</label>
+       <input type="email" class="form-control" id="email" placeholder="Email">
+     </div>
+     <div class="form-group">
+       <label for="subject">Subject</label>
+       <input type="subject" class="form-control" id="subject" placeholder="Subject">
+     </div>
+     <div class="form-group">
+       <label for="message">Message</label>
+       <input type="message" class="form-control" id="message" placeholder="Message">
+     </div>
+     <button type="submit" class="btn btn-default">Submit</button>
+   </form>
+
+   <p> <strong>Kayla Duffney</strong><br>
+  Fargo, ND<br>
+  <a href="mailto:duffneyka@gmail.com">duffneyka@gmail.com</a><br>
+  <abbr title="Phone">P:</abbr> (218) 866-0734
+  </p>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

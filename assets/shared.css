@@ -1,0 +1,17 @@
+.page-header table {
+  font-family: "Bebas Neue", Helvetica, sans-serif;
+  font-size: 20pt;
+  color: #9facb5;
+  text-decoration: none;
+  background-color: #ffffff;
+  width: 600px;
+  margin: auto;
+  border: 0px solid black;
+}
+.page-header table td {
+  text-align: center
+}
+.page-header table td a {
+  color:#9facb5;
+  text-decoration: none
+}
